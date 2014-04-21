@@ -47,4 +47,14 @@ public class TestDialogController extends Stage
     {
         close();
     }
+
+    public String getName()
+    {
+        return nameTextBox.getText();
+    }
+
+    public String getAddress()
+    {
+        return addressTextBox.getText();
+    }
 }
